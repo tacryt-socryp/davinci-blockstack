@@ -31,7 +31,6 @@ export default class Profile extends Component {
           <img src={ person.avatarUrl() } className="img-rounded avatar" id="avatar-image" />
         </div>
         <h1>Hello, <span id="heading-name">{ person.name() }</span>!</h1>
-        <p className="lead">
           <button
             className="btn btn-primary btn-lg"
             id="signout-button"
@@ -39,7 +38,6 @@ export default class Profile extends Component {
           >
             Logout
           </button>
-        </p>
       </div> : null
     );
   }
